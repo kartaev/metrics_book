@@ -1,9 +1,7 @@
-theme: jekyll-theme-minimal
-markdown: kramdown
+markdown: KaTeX
 plugins:
   - jekyll-optional-front-matter
 
 # Настройки для MathJax (LaTeX)
-kramdown:
+KaTeX:
   math_engine: mathjax
-  syntax_highlighter: rouge
