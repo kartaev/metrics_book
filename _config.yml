@@ -1,7 +1,4 @@
-markdown: KaTeX
-plugins:
-  - jekyll-optional-front-matter
-
-# Настройки для MathJax (LaTeX)
-KaTeX:
-  math_engine: mathjax
+markdown: kramdown
+kramdown:
+  math_engine: katex  # Включаем KaTeX
+  syntax_highlighter: rouge
