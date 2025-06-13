@@ -1,17 +1,4 @@
-plugins:
-  - jekyll-relative-links
-
-relative_links:
-  enabled: true
-  collections: true
-
-include:
-  - MetricsLectureNotes.md
-
+theme: jekyll-theme-minimal
 markdown: kramdown
-
-kramdown:
-  math_engine: katex
-  syntax_highlighter_opts:
-    block:
-      line_numbers: true
+plugins:
+  - jekyll-optional-front-matter
